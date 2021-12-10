@@ -1,0 +1,98 @@
+body{
+    margin: 0%;
+    font-family: 'Bebas Neue', cursive;
+    /* background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%); */
+}
+.entry{
+    text-align: center;
+}
+.highlight{
+    color: chocolate;
+}
+section{
+    height: 500px;
+    padding-bottom: 160px;
+}
+.Intro-area{
+    /* border: 1px solid wheat; */
+}
+.half-width{
+    width: 35%;
+    float: left;
+    margin: 5.5%;
+    padding: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.button{
+    text-decoration: none;
+    background-color: darkorange;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: whitesmoke;
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+.daily-life{
+    /* border: 1px solid wheat; */
+}
+.last-highlight{
+    width: 28%;
+    margin: 1%;
+    padding: 1%;
+    float: left;
+}
+.last-highlight img{
+    width: 100%;
+    padding-top: 4px;
+}
+.single-width{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 70%;
+} 
+.last-part{
+    border: 1px solid wheat;
+}
+footer{
+    background-color: grey;
+    padding: 70px 0;
+}
+footer h5{
+    text-align: center;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 22%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+} 
+.footer-col ul li a:hover{
+    color: blueviolet;
+    padding-left: 8px;
+}
+.footer-col ul li a{
+    text-decoration: none;
+
+}
+.social-links i:hover{
+    color: darksalmon;
+    padding-left: 8px;
+}
